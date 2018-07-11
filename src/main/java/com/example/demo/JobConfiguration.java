@@ -74,6 +74,7 @@ public class JobConfiguration {
 
 	//job transition
         //remote
+	//local
 	@Bean
 	public Job firstJob() {
 		return jobBuilderFactory.get("firstJob") 
