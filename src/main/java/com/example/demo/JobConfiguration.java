@@ -63,15 +63,15 @@ public class JobConfiguration {
 		}).build();
 	}
 	
-	/*
+	
 	@Bean
-	public Job firstJob() {
-		return jobBuilderFactory.get("firstJob") 
+	public Job firstJob1() {
+		return jobBuilderFactory.get("firstJob1") 
 				.start(step1())
 				.next(step2())
 				.build();
 	}
-*/
+
 	//job transition
 
 	@Bean
