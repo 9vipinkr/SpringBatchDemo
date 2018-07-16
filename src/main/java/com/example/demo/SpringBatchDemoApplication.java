@@ -10,5 +10,6 @@ public class SpringBatchDemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBatchDemoApplication.class, args);
+		System.out.println("Hii");
 	}
 }

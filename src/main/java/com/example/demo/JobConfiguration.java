@@ -19,7 +19,10 @@ public class JobConfiguration {
 	public JobBuilderFactory jobBuilderFactory;
 	@Autowired
 	public StepBuilderFactory stepBuilderFactory;
-	
+	private void Sysout() {
+		// TODO Auto-generated method stub
+
+	}
 	@Bean
 	public Step step1() {
 		return stepBuilderFactory.get("step1")
